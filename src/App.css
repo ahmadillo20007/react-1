@@ -1,38 +1,170 @@
-.App {
-  text-align: center;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.container{
+    width: 1440px;
+    margin: 0 auto;
 }
+.main{
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+    width: 100%;
+    background-color: #00353B;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.main__list{
+    margin-top: 30px;
+align-items: center;
+justify-content: center; 
+width: 383px;
+margin-left: 516px;
+justify-content: space-between;   
+    display: flex;
 }
-
-.App-link {
-  color: #61dafb;
+.main__list__item{
+    color: #fff;
+    list-style-type: none;
 }
+.reg__text ,   .reg__shop__text{
+    color: #fff;
+    font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+
+}
+.reg{
+    display: flex;
+    width: 404px;
+
+    margin-left: 1055px;
+    justify-content: space-around;
+   margin-bottom: 30px;
+}
+.reg__btn{
+    background: #FFFFFF;
+border:none;
+border-radius: 8px;
+width: 105px;
+height: 60px;
+margin-top: -35px;
+
+}
+.reg img{
+    height: 29px;
+    width : 19px;
+}
+.main{
+    display: flex;
+}
+.cart{
+    display: flex;
+    justify-content: space-between;
+    width: 61px;
+    height: 42px;
+    margin-top: -20px;
+}
+.search{
+    display: flex;
+    justify-content: space-between;
+    width: 79px;
+    height: 24px;
+    margin-top: -20px;
+}
+.reg__btn__text{
+    font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+
+text-align: center;
+
+color: #1F2937;
+}
+.hero{
+    background-color: #00353B;
+    background-size: cover;
+
+}
+.hero__text{
+    font-weight: 400;
+    font-size: 56px;
+    line-height: 67px;
+    color: #FFFFFF;
+    width: 750px;
+    height: 135px;
+    margin-left: 80px;
+    margin-top: 200px;
+}
+.hero__item{
+    font-weight: 400;
+font-size: 18px;
+line-height: 27px;
+width: 587px;
+height: 54px;
+color: #FFFFFF;
+margin-left: 80px;
+margin-top: 30px;
+}
+.hero{
+    display: flex;
+}
+.hero__img{
+margin-top: 48px;
+
+}
+.hero__btn{
+    width: 172px;
+    height: 50px;
+    margin-left: 80px;
+    margin-top: 39px;
+    background: #22A45A;
+border: 1px solid #22A45A;
+border-radius: 8px;
+}
+.hero__btn__item{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.buttons__text{
+    font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+
+text-align: center;
+margin-left: 200px;
+margin-top: -30px;
+color: #FFFFFF;
+
+}
+.buttons{
+
+    width: 500px;
+    
+}
+.buttons__img{
+    margin-left: 400px;
+    margin-bottom: 20px;
+    margin-top: -20px;
+}
+.hero__cap{
+    margin-bottom: 340px;
+    margin-top: -340px;
+    margin-left: -105px;
+}
+.hero__last__item{
+    font-weight: 400;
+font-size: 18px;
+line-height: 27px;
+text-align: center;
+color: #FFFFFF;
+margin-bottom: 100px;
+margin-top: -100px;
+
 }
