@@ -85,6 +85,21 @@ Watch Video
                 </div>
             </header>
 
+<div className="container">
+<section className='premium'>
+<button className="about__us">
+    
+<p className='about__us__item'>About us</p>
+<h2 className='premium__text'>
+    No-code Education Platform
+
+</h2>
+<p className='premium__item'>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.
+</p>
+</button>
+</section>
+</div>
         </>
     );
 }
